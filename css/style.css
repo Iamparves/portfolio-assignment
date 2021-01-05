@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 40px;
+  background: linear-gradient(#ff8063, #f46060);
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.navbar {
+  padding: 30px 0;
+}
+
+.navbar__list {
+  list-style: none;
+  float: right;
+}
+
+.navbar__item {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.navbar__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #3c3c3c;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 50px 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-2 {
+  width: 40%;
+  float: left;
+}
+
+.col-2.col2 {
+  float: right;
+}
+
+.hero__content {
+  padding: 130px 0;
+}
+
+.hero__title {
+  color: #363958;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.hero__title span {
+  color: #ff8367;
+  font-family: inherit;
+}
+
+.hero__description {
+  color: #3e3e3e;
+  width: 65%;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.about {
+  padding: 50px 0;
+}
+
+.about__content {
+  padding: 130px 0;
+}
+
+.about__title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.about__description {
+  color: #3e3e3e;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.about__btn img {
+  width: 20px;
+}
+
+.project {
+  background: #f8f9fc;
+  padding: 100px 0;
+}
+
+.section__top {
+  margin-bottom: 80px;
+}
+
+.section__title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #363958;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.section__title span {
+  font-family: inherit;
+  color: #f46060;
+}
+
+.col-3 {
+  width: 30%;
+  float: left;
+}
+
+.col-3.col2,
+.col-3.col3 {
+  margin-left: 5%;
+}
+
+.project__card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgb(0, 0, 0, 0.03);
+}
+
+.project__content {
+  padding: 25px 5px 10px;
+}
+
+.project__title {
+  color: #363958;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.project__description {
+  color: #6c6c6c;
+  line-height: 1.6;
+}
+
+.inquiry {
+  padding: 80px 0;
+}
+
+.inquiry__content {
+  width: 80%;
+  margin: 0 auto;
+  background: url(../img/inquiry-bg.png) no-repeat center center / cover;
+  border-radius: 30px;
+  padding: 80px;
+}
+
+.inquiry__title {
+  float: left;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.inquiry__btn {
+  float: right;
+  margin: 10px 0;
+}
+
+.contact {
+    padding-bottom: 70px;
+}
+
+.contact__content {
+    text-align: center;
+}
+
+.contact__title {
+    color: #696871;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.contact__email {
+    color: #363958;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contact__link {
+    display: inline-block;
+    width: 35px;
+    margin: 0 8px;
+}
