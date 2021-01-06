@@ -121,7 +121,7 @@ img {
 }
 
 .section__top {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 .section__title {
@@ -198,29 +198,64 @@ img {
 }
 
 .contact {
-    padding-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .contact__content {
-    text-align: center;
+  text-align: center;
 }
 
 .contact__title {
-    color: #696871;
-    font-family: "Bebas Neue", cursive;
-    font-weight: 400;
-    font-size: 24px;
-    margin-bottom: 12px;
+  color: #696871;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 12px;
 }
 
 .contact__email {
-    color: #363958;
-    font-size: 30px;
-    margin-bottom: 15px;
+  color: #363958;
+  font-size: 30px;
+  margin-bottom: 15px;
 }
 
 .contact__link {
-    display: inline-block;
-    width: 35px;
-    margin: 0 8px;
+  display: inline-block;
+  width: 35px;
+  margin: 0 8px;
+}
+
+.service {
+  background: #f8f9fc;
+  padding: 100px 0 60px;
+}
+
+.service .container {
+  width: 1000px;
+}
+
+.service__card {
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  border: solid 1px #efefef;
+}
+
+.service__img {
+  height: 35px;
+  width: auto;
+  display: inline-block;
+}
+
+.service__title {
+  color: #363958;
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.service__description {
+  color: #7c7c7c;
+  line-height: 1.5;
 }
